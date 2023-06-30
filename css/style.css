@@ -1,0 +1,96 @@
+*{
+    background-image: url("../img/low-poly-grid-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+.login-box{
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: -5;
+    text-align: center;
+}
+
+
+input[type="text"],
+  input[type="password"]{
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-family: 'Poppins' , sans-serif;
+    background: #035d81; 
+    color: white;
+  }
+
+  input[type="submit"]{
+    background: #FFA15F;
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    height: 45px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover{
+    background-color: #45a049;
+  }
+
+  @media screen and (max-width: 60px){
+    .login-box{
+        max-width: 300px;
+    }
+  }
+
+  .login-links{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 15px;
+    border-radius: 10px;
+  }
+
+  .login-links {
+    color: rgb(195, 248, 241);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .login-links a{
+    color: rgb(250, 242, 242);
+    text-decoration: none;
+  }
+
+  .login-links .spacer{
+    margin: 0 82px;
+  }
+
+  @media (max-width: 900px){
+    .login-box{
+        top: auto;
+        left: auto;
+        margin: 0 auto;
+    }
+    .login-links{
+      left: auto;
+    }
+    
+  }
