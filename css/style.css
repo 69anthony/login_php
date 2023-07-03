@@ -1,10 +1,10 @@
 *{
-    background-image: url("../img/low-poly-grid-haikei.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    box-sizing: border-box;
+  background-image: url("img/low-poly-grid-haikei.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-sizing: border-box;
 }
 
 .login-box{
